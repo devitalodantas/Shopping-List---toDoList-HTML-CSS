@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="box">
+        <div class="box-cab">
+            <h1>Hey, don't forget me!</h1>
+            <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><i>SHOPPING LIST</i></h2>
+        </div>
+
+        <div class="box-add">
+            <input id="button-product" type="text" placeholder="Enter the product">
+            <button onclick="newProduct()" id="button-add"class="bi bi-cart-plus" title="Click to add"></button>
+        </div>
+        
+        <ol id="box-list"></ol>
+       
+        
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
